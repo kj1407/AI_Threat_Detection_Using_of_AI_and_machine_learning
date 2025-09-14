@@ -5,19 +5,25 @@ This is a Python-based prototype for detecting anomalous network patterns using 
 
 ## Setup & Usage
 1. Install dependencies:
-    pip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 2. Generate synthetic network data:
-    python generate_data.py
-
+```bash
+python generate_data.py
+```
 3. Run threat detection:
-    python threat_detection.py
-
+```bash
+python threat_detection.py
+```
 4. Generate AI alerts:
-    python ai_alerts.py
-
+```bash
+python ai_alerts.py
+```
 5. Launch the dashboard:
-    streamlit run dashboard.py
+```bash
+streamlit run dashboard.py
+```
 
 ## Optional
 You can integrate AWS Sagemaker pipelines for production-grade deployment.
